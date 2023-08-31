@@ -331,10 +331,6 @@ ul {
 
 .benefits-list-icon {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  background-color: var(--color-cloud);
 }
 
 .benefits-list-item {
@@ -347,8 +343,14 @@ ul {
   padding: 0px;
 }
 
-.benefits-icon {
-  margin: 24px 100px;
+.benefits-icons-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: var(--color-cloud);
 }
 
 .title-benefits {
