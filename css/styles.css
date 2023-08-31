@@ -183,7 +183,11 @@ ul {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer-container-main {
+  margin-right: 120px;
 }
 
 .footer-back {
@@ -218,6 +222,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-style: normal;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin-bottom: 16px;
@@ -236,11 +241,15 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-iris);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon {
+  fill: var(--color-cloud);
 }
 
 .footer-icon-circle:hover,
@@ -516,23 +525,29 @@ ul {
   height: 88px;
 }
 
-.customers-icon {
+.customers-icon-link {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
+  color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   fill: #8e8f99;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-icon-link:hover,
+.customers-icon-link:focus {
   border-color: var(--color-ocean);
+  color: var(--color-ocean);
   fill: var(--color-ocean);
+}
+
+.customers-icon {
+  fill: currentColor;
 }
 
 /*
