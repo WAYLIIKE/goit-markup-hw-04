@@ -458,6 +458,8 @@ ul {
 .team-icons-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
+  margin: 0 16px;
 }
 
 .team-icon-item {
@@ -476,7 +478,7 @@ ul {
 }
 
 .team-photo-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 /*
