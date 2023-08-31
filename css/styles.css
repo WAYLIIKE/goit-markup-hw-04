@@ -512,10 +512,15 @@ ul {
 
 .customers-list-icon {
   flex-basis: calc((100% - 5 * 24px) / 6);
-  max-height: 88px;
+  height: 88px;
 }
 
 .customers-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   fill: #8e8f99;
