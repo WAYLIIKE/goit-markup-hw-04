@@ -284,9 +284,6 @@ ul {
   line-height: 1.07;
 }
 
-.hero-container {
-}
-
 .button-index {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -442,7 +439,7 @@ ul {
 }
 
 .team-list-item:hover .team-icon-circle,
-.team-list-item:focus .team-icon-circle {
+.team-icon-circle:focus {
   background-color: var(--color-ocean);
 }
 
@@ -463,6 +460,10 @@ ul {
 
 .team-icon-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-icon {
+  fill: var(--color-cloud);
 }
 
 .team-icon-circle {
