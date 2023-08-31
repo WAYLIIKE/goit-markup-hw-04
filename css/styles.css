@@ -425,7 +425,6 @@ ul {
   background-color: #f4f4fd;
   color: var(--color-navy-blue);
   padding: 120px 0;
-  margin-bottom: 120px;
 }
 
 .text-team {
@@ -488,7 +487,7 @@ ul {
 */
 
 .customers-section {
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
 .customers-title {
@@ -500,6 +499,7 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color: var(--color-navy-blue);
 }
 
 .customers-list {
